@@ -4,7 +4,7 @@ body {
 }
 
 header, .content, .quote, .sign-up, footer {
-    padding: 15px 120px 90px;
+    padding: 25px 150px 110px;
 }
 
 header {
@@ -72,7 +72,7 @@ button {
     color: white;
     background-color: #3882F6;
     font-weight: bold;
-    padding: 5px 25px;
+    padding: 7px 25px;
     border-radius: 8px;
 }
 
@@ -87,4 +87,28 @@ img {
     height: 200px;
     width: 200px;
     object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.information-header {
+    font-size: 38px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+    margin: 30px 0 50px;
+}
+
+.information {
+    display: flex;
+    justify-content: space-between;
+}
+
+.information div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 7px;
 }
