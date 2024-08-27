@@ -65,7 +65,7 @@ a {
     flex: 1;
 }
 
-button {
+button, .sign-up {
     color: white;
     background-color: #3882F6;
     font-weight: bold;
@@ -132,4 +132,26 @@ img {
     font-weight: bold;
     font-size: 20px;
     align-self: flex-end;
+}
+
+.sign-up {
+    width: 800px;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.sign-up p, h3 {
+    margin: 0;
+}
+
+.sign-up p {
+    font-weight: 100;
+}
+
+.sign-up button {
+    border: 2px solid white;
+    padding: 5px 25px;
 }
