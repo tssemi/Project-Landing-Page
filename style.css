@@ -3,14 +3,11 @@ body {
     margin: 0;
 }
 
-header, .content, .quote, .sign-up, footer {
-    padding: 25px 150px 110px;
-}
-
 header {
     background-color: #1f2937;
     color: white;
     box-sizing: border-box;
+    padding: 25px 150px 110px;
 }
 
 .title {
@@ -84,12 +81,16 @@ button {
 }
 
 img {
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     object-fit: cover;
     border-radius: 10px;
+    border: 5px solid rgb(193, 193, 193);
 }
 
+.content {
+    padding: 25px 200px 110px;
+}
 
 .information-header {
     font-size: 38px;
@@ -111,4 +112,24 @@ img {
     align-items: center;
     text-align: center;
     gap: 7px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 100px 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.message {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author {
+    font-weight: bold;
+    font-size: 20px;
+    align-self: flex-end;
 }
