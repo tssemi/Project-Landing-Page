@@ -6,7 +6,6 @@ body {
 header {
     background-color: #1f2937;
     color: white;
-    box-sizing: border-box;
     padding: 25px 150px 110px;
 }
 
@@ -58,7 +57,7 @@ a {
     flex-direction: column;
     justify-content: space-between;
     align-items: baseline;
-    gap: 3px;
+    gap: 2px;
 }
 
 .header div {
@@ -71,6 +70,7 @@ button, .sign-up {
     font-weight: bold;
     padding: 7px 25px;
     border-radius: 8px;
+    margin-top: 8px;
 }
 
 .placeholder {
@@ -112,6 +112,7 @@ img {
     align-items: center;
     text-align: center;
     gap: 7px;
+    max-width: 150px;;
 }
 
 .quote {
@@ -154,4 +155,14 @@ img {
 .sign-up button {
     border: 2px solid white;
     padding: 5px 25px;
+    margin: 0;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
 }
